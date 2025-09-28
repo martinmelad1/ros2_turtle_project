@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>arl_ros2_project</name>
+  <version>0.0.1</version>
+  <description>Turtle drawing project</description>
+  <maintainer email="martin@example.com">Martin</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>turtlesim</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
